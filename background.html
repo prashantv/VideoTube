@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+// used to read settings from content scripts
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    var optionVal = JSON.parse(localStorage[request.getOption]);
+    sendResponse({value: optionVal});
+  });
+
+
+</script>

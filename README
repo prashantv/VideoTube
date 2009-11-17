@@ -1,0 +1,3 @@
+Not yet packaged into a CRX, so you will have to load this manually on each start currently.
+
+Go to chrome://extensions and choose "Load Unpacked Extension" and point to this directory.
